@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 Once the dataset is organized and the dependencies are installed, you can start training by running:
 ```text
-ppython main.py
+python main.py
 ```
 
 ## Citation
