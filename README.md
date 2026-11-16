@@ -7,34 +7,9 @@ We present **Conflict-aware Diversified Collaborative Learning (CDCL)**, a novel
 
 ## Datasets
 
-1. **Download the datasets**:
-	- GlaS dataset: [Download GlaS dataset](https://datasets.activeloop.ai/docs/ml/datasets/glas-dataset/)
-	- CRAG dataset: [Download CRAG dataset](https://opendatalab.com/OpenDataLab/CRAG/tree/main)
-
-2. **Format the dataset as follows**:
-   ```text
-     dataset/
-   ├── GlaS
-   │    ├── train_sup_85
-   │    │    ├── image
-   │    │    │    ├── 1.tif
-   │    │    │    ├── 2.tif
-   │    │    │    └── ...
-   │    │    └── mask
-   │    │         ├── 1.png
-   │    │         ├── 2.png
-   │    │         └── ...
-   ├── CRAG
-   │    ├── train_sup_35
-   │    │    ├── image
-   │    │    └── mask
-   │    ├── train_unsup_138
-   │    │    ├── image
-   │    │    └── mask
-   │    └── val
-   │         ├── image
-   │         └── mask
-   ```
+**Download the datasets**:
+- GlaS dataset: [Download GlaS dataset](https://datasets.activeloop.ai/docs/ml/datasets/glas-dataset/)
+- CRAG dataset: [Download CRAG dataset](https://opendatalab.com/OpenDataLab/CRAG/tree/main)
 
 ## Training FDCL
 
